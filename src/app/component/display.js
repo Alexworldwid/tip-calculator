@@ -28,7 +28,7 @@ const Display = ({ tipAmount, totalPerPerson, handleReset }) => {
                     <p className='text-[hsl(172,67%,45%)] text-3xl flex flex-row items-center'><BsCurrencyDollar className='text-xl' />{totalPerPerson}</p>
                 </div>
             </div>
-            <button onClick={handleTipReset} className='py-4 rounded-xl text-xl bg-[hsl(172,67%,45%)] font-medium' id='reset'>RESET</button>
+            <button onClick={handleTipReset} className='py-4 rounded-xl text-xl bg-[hsl(172,67%,45%)] font-medium md:mt-16' id='reset'>RESET</button>
         </div>
     );
 };
